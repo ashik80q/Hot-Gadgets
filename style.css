@@ -1,52 +1,47 @@
+html{
+
+    scroll-behavior: smooth;
+}
+
+
+p{color:gray;}
+
 
 .container{
     margin-bottom: 100px;
+    font-size: 20px;
+    font-weight: 700;
 
 }
-
-
-#header{
-   margin-top: 20px;
-   color:black;
+#navbar{
+      
+    background-color: floralwhite;
 }
-#header img{
-    height: 60px;
-}
-.li-style li a{
-    color: rgb(14, 6, 6);
-    font-size: large;
+.navbar-nav li a{
   
-
-}
-.li-style li a:hover{
-    color: rgb(56, 54, 54);
+    margin:0 20px;
 }
 
+/* carousel css*/
 .carousel-item{
 
     padding: 20px 40px;
  }
-.bg-color{
 
-    background-color: ;
-    padding: 10px 40px;
-}
-body{
-    box-sizing: border-box;
-}
-p{color:gray;}
+
 .bay-now-button{
-    background-image: linear-gradient(to bottom, rgb(10, 8, 9) 0%, #4e484a 100%);
-    
-        
-      margin-top: 20px;
+        background-image: linear-gradient(to bottom, rgb(10, 8, 9) 0%, #4e484a 100%);       
+         margin-top: 20px;
         color: #fff;
         border: none;
         border-radius: 5px;
         padding:10px 35px;
         cursor: pointer;
     }
-    .card{
+
+
+/*Start Smart phone  and laptop Card css*/
+.card{
         border: none;
         border-radius: 10px;
         box-shadow: 5px 5px 15px rgb(124, 67, 77);
@@ -55,77 +50,31 @@ p{color:gray;}
 #phone{
 
     background-color: rgb(201, 47, 47);
+   }
+
+   /*Start categories css*/
+
+.ctg-h1{
+
+    margin-bottom: 80px;
 }
-#categories {
+span.color-bar{
+
+    display: block;
+    margin:0 auto;
+    width: 120px;
+    height: 5px;
+   border-radius: 5px;
+   background-image:linear-gradient(to left, orange,yellow);
+
+}
+.product-cat-title a{
+
+    color:yellow;
+    font-weight: 700;
+}
+.cat-name{
     text-align: center;
-    
+    color: gray;
+    text-decoration: none;
 }
-#categories-row{
-
-    padding:100px 20px;
-    height: 500px;
-  
-}
-#categories {
-    text-align: center;
-    border-bottom: 2px solid rgb(240, 224, 9);
-    border-width: 10px;
-    padding-bottom: 20px;
-    display: inline-block;
-}
-#text{
-     
- background-color: tomato;
- width: 100px;
-}
-#box-im-1{
-    position: relative;
-    top:-50px;
-    text-align: center;
-    background-color:rgba(251, 251, 251, 0.87);
-   border-radius: 9px;
-   margin: 5px 2px;
-    padding: 20px 45px;
-
-}
-.box-im{
-   background-color:rgba(251, 251, 251, 0.87);
-   border-radius: 9px;
-    text-align: center;
-    margin: 15px 2px;
-    padding: 10px 5px;
-    
-
-    
-}
-
-
-/*new css*/
-#Categories{
-
-    height: 500px;
-}
-#cat-1{
-     
-     margin: 5%;
-     padding: 0%;
-     
-     text-align: center;
-     
-}
-#cat-2 {
-    
-    height: 100%;
-    margin: 4%;
-    
-    
-}
-#cat-2 img{
-      margin: 10px 30px;
-      
-     width: auto;
-     page-break-after: 5px;
-}
-
-
-
